@@ -77,7 +77,7 @@ export const ConversationItem = ({
           </View>
         ) : (
           <Link href={`/chat/${conversation.id}`}>
-            {conversation.name ?? conversation.id}
+            {conversation.name ?? "New Chat"}
           </Link>
         )}
       </Flex>
