@@ -1,6 +1,1 @@
-@import "@aws-amplify/ui-react/styles/reset.css";
-@import "@aws-amplify/ui-react/styles.css";
-
-body {
-  background-color: var(--amplify-colors-background-primary);
-}
+@import "../styles/globals.css";

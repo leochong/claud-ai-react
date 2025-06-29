@@ -1,45 +1,42 @@
 "use client";
 
 import * as React from "react";
-import { ConversationsContext } from "@/providers/ConversationsProvider";
-import { View } from "@aws-amplify/ui-react";
-import { AIConversation } from "@aws-amplify/ui-react-ai";
-import { useRouter } from "next/navigation";
+import { getCurrentUser } from 'aws-amplify/auth';
+import { Dashboard } from "@/components/Dashboard/Dashboard";
 
 export default function Home() {
-  const { createConversation } = React.useContext(ConversationsContext);
-  const router = useRouter();
-  const [isNavigating, setIsNavigating] = React.useState(false);
+  const [user, setUser] = React.useState<{ username?: string; email?: string } | null>(null);
+  const [isLoading, setIsLoading] = React.useState(true);
 
-  const handleSendMessage = async (message: { content: { text?: string }[] }) => {
-    if (isNavigating) return;
-    setIsNavigating(true);
-    
-    try {
-      const conversation = await createConversation();
-      if (!conversation) {
-        setIsNavigating(false);
-        return;
+  React.useEffect(() => {
+    const fetchUser = async () => {
+      try {
+        const currentUser = await getCurrentUser();
+        setUser(currentUser);
+      } catch (error) {
+        console.error('Error fetching user:', error);
+      } finally {
+        setIsLoading(false);
       }
-      
-      // Store initial message in sessionStorage for the chat page
-      sessionStorage.setItem(`initial_message_${conversation.id}`, JSON.stringify(message));
-      
-      // Navigate to chat page
-      await router.push(`/chat/${conversation.id}`);
-    } catch (error) {
-      console.error('Error creating conversation:', error);
-      setIsNavigating(false);
-    }
-  };
+    };
 
-  return (
-    <View padding="large" flex="1">
-      <AIConversation
-        messages={[]}
-        handleSendMessage={handleSendMessage}
-        isLoading={isNavigating}
-      />
-    </View>
-  );
+    fetchUser();
+  }, []);
+
+  if (isLoading) {
+    return (
+      <div style={{ 
+        display: 'flex', 
+        justifyContent: 'center', 
+        alignItems: 'center', 
+        height: '100vh',
+        background: 'var(--background)',
+        color: 'var(--text-white)'
+      }}>
+        Loading...
+      </div>
+    );
+  }
+
+  return <Dashboard user={user} />;
 }
