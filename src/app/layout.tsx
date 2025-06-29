@@ -4,8 +4,6 @@ import { ConfigureAmplify } from "./ConfigureAmplify";
 import { theme } from "@/theme";
 import { Layout } from "@/components/Layout";
 import { Sidebar } from "@/components/Sidebar";
-import { CreateChat } from "@/components/Sidebar/CreateChat";
-import { LogoutButton } from "@/components/Sidebar/Logout";
 import "./globals.css";
 
 export default function RootLayout({
@@ -23,8 +21,6 @@ export default function RootLayout({
           <ConfigureAmplify />
 
           <Sidebar>
-            <LogoutButton />
-            <CreateChat />
           </Sidebar>
 
           {children}

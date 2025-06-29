@@ -1,0 +1,1275 @@
+{
+    "Functions": [
+        {
+            "FunctionName": "amplify-claudeai-leochong-CustomS3AutoDeleteObject-TmjXAklXX4sa",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-claudeai-leochong-CustomS3AutoDeleteObject-TmjXAklXX4sa",
+            "Runtime": "nodejs22.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-claudeai-leochong-CustomS3AutoDeleteObjects-etziphmb3Ey2",
+            "Handler": "index.handler",
+            "CodeSize": 2237,
+            "Description": "Lambda function for auto-deleting objects in amplify-claudeai-leochong--userfilesbucketa0d7ee59-5klo9nzf8mwu S3 bucket.",
+            "Timeout": 900,
+            "MemorySize": 128,
+            "LastModified": "2025-06-29T04:15:03.777+0000",
+            "CodeSha256": "4qZwvk1gEdE5gckIHfBV0pSMEOJtKW8U5O7jHENuUz4=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "075f1dda-614b-447c-b4f9-a778aed7ecca",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-claudeai-leochong-CustomS3AutoDeleteObject-TmjXAklXX4sa"
+            }
+        },
+        {
+            "FunctionName": "s3TriggerFunction",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:s3TriggerFunction",
+            "Runtime": "python3.10",
+            "Role": "arn:aws:iam::080746528746:role/service-role/s3TriggerFunction-role-kby8wkfp",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 566,
+            "Description": "An Amazon S3 trigger that retrieves metadata for the object that has been updated.",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2025-06-09T17:38:04.000+0000",
+            "CodeSha256": "MQNGPkeX525MZA/zPVen3i4m1amuDDGD2z9kpJa1a/o=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {}
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "74537b66-cf9f-4d0c-b2c7-e499d493bd96",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/s3TriggerFunction"
+            }
+        },
+        {
+            "FunctionName": "amplify-claudeai-nevad-sa-TableManagerCustomProvid-ObSzIZ40h41z",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-claudeai-nevad-sa-TableManagerCustomProvid-ObSzIZ40h41z",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-claudeai-nevad-sa-AmplifyManagedTableOnEven-V2609L88u224",
+            "Handler": "amplify-table-manager-handler.onEvent",
+            "CodeSize": 46220,
+            "Description": "AmplifyManagedTable - onEvent (amplify-claudeai-nevad-sandbox-9aba0b1697/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider)",
+            "Timeout": 840,
+            "MemorySize": 128,
+            "LastModified": "2025-06-21T01:41:31.403+0000",
+            "CodeSha256": "lhY2o1+N1TDSU1+iKp7ZOBD1y71cByhil6Jn7YYl4aA=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "WAITER_STATE_MACHINE_ARN": "arn:aws:states:us-west-2:080746528746:stateMachine:AmplifyTableWaiterStateMachine060600BC-X2aU8Uztiakt"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "d6b1cd97-0f2b-40a9-98ee-c33693e28a76",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-claudeai-nevad-sa-TableManagerCustomProvid-ObSzIZ40h41z"
+            }
+        },
+        {
+            "FunctionName": "amplify-amplifyvitereactt-CustomCDKBucketDeploymen-BVyrOKaoNr9i",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-amplifyvitereactt-CustomCDKBucketDeploymen-BVyrOKaoNr9i",
+            "Runtime": "python3.11",
+            "Role": "arn:aws:iam::080746528746:role/amplify-amplifyvitereactt-CustomCDKBucketDeployment-GkTE76aavopU",
+            "Handler": "index.handler",
+            "CodeSize": 4781,
+            "Description": "",
+            "Timeout": 900,
+            "MemorySize": 1536,
+            "LastModified": "2025-06-27T04:27:59.297+0000",
+            "CodeSha256": "YHbwiP0EOLRfGwVok2a2UpHSOlTm2xi5S1kB582aWkQ=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "AWS_CA_BUNDLE": "/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "d6dfca67-2e0a-41f4-97be-7856db6693f1",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:us-west-2:080746528746:layer:amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentAwsCliLayerE322F905:16",
+                    "CodeSize": 17857584
+                }
+            ],
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-amplifyvitereactt-CustomCDKBucketDeploymen-BVyrOKaoNr9i"
+            }
+        },
+        {
+            "FunctionName": "amplify-claudeai-leochong-CustomCDKBucketDeploymen-797F46rMTRm4",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-claudeai-leochong-CustomCDKBucketDeploymen-797F46rMTRm4",
+            "Runtime": "python3.11",
+            "Role": "arn:aws:iam::080746528746:role/amplify-claudeai-leochong-CustomCDKBucketDeployment-2SFaxSK3odzC",
+            "Handler": "index.handler",
+            "CodeSize": 5471,
+            "Description": "",
+            "Timeout": 900,
+            "MemorySize": 1536,
+            "LastModified": "2025-06-29T04:15:24.159+0000",
+            "CodeSha256": "p2g+TCGHbAJ3zz0Qi1yRrI0sjPJfrvVZj4EpyTH73X0=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "AWS_CA_BUNDLE": "/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "9a0e6312-83cc-4e76-ae2e-8ec02ae50944",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:us-west-2:080746528746:layer:amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentAwsCliLayerE322F905:17",
+                    "CodeSize": 19940332
+                }
+            ],
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-claudeai-leochong-CustomCDKBucketDeploymen-797F46rMTRm4"
+            }
+        },
+        {
+            "FunctionName": "amplify-amplifyvitereactt-TableManagerCustomProvid-SFLyaiPkgYtm",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-amplifyvitereactt-TableManagerCustomProvid-SFLyaiPkgYtm",
+            "Runtime": "nodejs18.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-amplifyvitereactt-AmplifyManagedTableOnEven-UCnYkhzObgLT",
+            "Handler": "amplify-table-manager-handler.onEvent",
+            "CodeSize": 26989,
+            "Description": "AmplifyManagedTable - onEvent (amplify-amplifyvitereacttemplate-leochong-sandbox-8c187388a3/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider)",
+            "Timeout": 840,
+            "MemorySize": 128,
+            "LastModified": "2025-06-27T04:28:32.655+0000",
+            "CodeSha256": "W7mS1fxaAidY5UtPHoyAYA5sXmaH5rwUwoB4t7DKrhw=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "WAITER_STATE_MACHINE_ARN": "arn:aws:states:us-west-2:080746528746:stateMachine:AmplifyTableWaiterStateMachine060600BC-895mp1D2kEUo"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "517a7060-3c6d-4006-acd1-4bc439fc112f",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-amplifyvitereactt-TableManagerCustomProvid-SFLyaiPkgYtm"
+            }
+        },
+        {
+            "FunctionName": "amplify-amplifyvitereactt-TableManagerCustomProvid-xkv0ixvs46hM",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-amplifyvitereactt-TableManagerCustomProvid-xkv0ixvs46hM",
+            "Runtime": "nodejs18.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-amplifyvitereactt-AmplifyManagedTableIsComp-6f3Ho3zPG6il",
+            "Handler": "amplify-table-manager-handler.isComplete",
+            "CodeSize": 26989,
+            "Description": "AmplifyManagedTable - isComplete (amplify-amplifyvitereacttemplate-nevad-sandbox-5d0f5bbaa1/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider)",
+            "Timeout": 840,
+            "MemorySize": 128,
+            "LastModified": "2025-06-26T21:31:47.436+0000",
+            "CodeSha256": "W7mS1fxaAidY5UtPHoyAYA5sXmaH5rwUwoB4t7DKrhw=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "f2422542-d48d-4810-af5f-a33700063391",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-amplifyvitereactt-TableManagerCustomProvid-xkv0ixvs46hM"
+            }
+        },
+        {
+            "FunctionName": "amplify-claudeai-31027318-CustomS3AutoDeleteObject-bqchh0d5RTup",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-claudeai-31027318-CustomS3AutoDeleteObject-bqchh0d5RTup",
+            "Runtime": "nodejs22.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-claudeai-31027318-CustomS3AutoDeleteObjects-2leFoLAVTa1j",
+            "Handler": "index.handler",
+            "CodeSize": 2237,
+            "Description": "Lambda function for auto-deleting objects in amplify-claudeai-31027318-amplifydataamplifycodege-iiz1gkvst30b S3 bucket.",
+            "Timeout": 900,
+            "MemorySize": 128,
+            "LastModified": "2025-06-04T01:12:15.849+0000",
+            "CodeSha256": "4qZwvk1gEdE5gckIHfBV0pSMEOJtKW8U5O7jHENuUz4=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "a3bceba8-595b-405b-8d44-239a00cbf7f7",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-claudeai-31027318-CustomS3AutoDeleteObject-bqchh0d5RTup"
+            }
+        },
+        {
+            "FunctionName": "amplify-claudeai-31027318-TableManagerCustomProvid-epcgNLW2Yw48",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-claudeai-31027318-TableManagerCustomProvid-epcgNLW2Yw48",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-claudeai-31027318-AmplifyManagedTableOnEven-31q7SKyTA7gn",
+            "Handler": "amplify-table-manager-handler.onEvent",
+            "CodeSize": 46220,
+            "Description": "AmplifyManagedTable - onEvent (amplify-claudeai-310273187-sandbox-a29c718fcc/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider)",
+            "Timeout": 840,
+            "MemorySize": 128,
+            "LastModified": "2025-06-04T01:13:05.790+0000",
+            "CodeSha256": "lhY2o1+N1TDSU1+iKp7ZOBD1y71cByhil6Jn7YYl4aA=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "WAITER_STATE_MACHINE_ARN": "arn:aws:states:us-west-2:080746528746:stateMachine:AmplifyTableWaiterStateMachine060600BC-BCSwGYFAvH55"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "0f472025-2d6d-405a-881a-8618e9a46025",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-claudeai-31027318-TableManagerCustomProvid-epcgNLW2Yw48"
+            }
+        },
+        {
+            "FunctionName": "amplify-amplifyvitereactt-TableManagerCustomProvid-cAS9YOuez2Y7",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-amplifyvitereactt-TableManagerCustomProvid-cAS9YOuez2Y7",
+            "Runtime": "nodejs18.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-amplifyvitereactt-AmplifyManagedTableIsComp-J6GX8X0utbOh",
+            "Handler": "amplify-table-manager-handler.isComplete",
+            "CodeSize": 26989,
+            "Description": "AmplifyManagedTable - isComplete (amplify-amplifyvitereacttemplate-leochong-sandbox-8c187388a3/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider)",
+            "Timeout": 840,
+            "MemorySize": 128,
+            "LastModified": "2025-06-27T04:27:47.117+0000",
+            "CodeSha256": "W7mS1fxaAidY5UtPHoyAYA5sXmaH5rwUwoB4t7DKrhw=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "ba9f0a78-90a5-49ed-ba73-69fc2ea2cad2",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-amplifyvitereactt-TableManagerCustomProvid-cAS9YOuez2Y7"
+            }
+        },
+        {
+            "FunctionName": "amplify-mybedrockagentapp-CustomS3AutoDeleteObject-rPRRefe9pRsa",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-mybedrockagentapp-CustomS3AutoDeleteObject-rPRRefe9pRsa",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-mybedrockagentapp-CustomS3AutoDeleteObjects-Ttw0AKp8EJe3",
+            "Handler": "index.handler",
+            "CodeSize": 2237,
+            "Description": "Lambda function for auto-deleting objects in amplify-mybedrockagentapp-amplifydataamplifycodege-ruzytzymrabl S3 bucket.",
+            "Timeout": 900,
+            "MemorySize": 128,
+            "LastModified": "2025-06-25T04:46:16.001+0000",
+            "CodeSha256": "4qZwvk1gEdE5gckIHfBV0pSMEOJtKW8U5O7jHENuUz4=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "e7ea8952-6bd8-4add-8b34-40f1076cce99",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-mybedrockagentapp-CustomS3AutoDeleteObject-rPRRefe9pRsa"
+            }
+        },
+        {
+            "FunctionName": "amplify-claudeai-nevad-sa-CustomCDKBucketDeploymen-q2ANbaUFFXmG",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-claudeai-nevad-sa-CustomCDKBucketDeploymen-q2ANbaUFFXmG",
+            "Runtime": "python3.11",
+            "Role": "arn:aws:iam::080746528746:role/amplify-claudeai-nevad-sa-CustomCDKBucketDeployment-151Fs0j7Pk1E",
+            "Handler": "index.handler",
+            "CodeSize": 5471,
+            "Description": "",
+            "Timeout": 900,
+            "MemorySize": 1536,
+            "LastModified": "2025-06-21T01:40:57.303+0000",
+            "CodeSha256": "p2g+TCGHbAJ3zz0Qi1yRrI0sjPJfrvVZj4EpyTH73X0=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "AWS_CA_BUNDLE": "/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "ed61ca4d-d7d7-4fa0-ae7d-5aedde941683",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:us-west-2:080746528746:layer:amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentAwsCliLayerE322F905:12",
+                    "CodeSize": 19940332
+                }
+            ],
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-claudeai-nevad-sa-CustomCDKBucketDeploymen-q2ANbaUFFXmG"
+            }
+        },
+        {
+            "FunctionName": "amplify-amplifyvitereactt-CustomS3AutoDeleteObject-6sAFcZi2rrh1",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-amplifyvitereactt-CustomS3AutoDeleteObject-6sAFcZi2rrh1",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-amplifyvitereactt-CustomS3AutoDeleteObjects-n5vwomartkWy",
+            "Handler": "index.handler",
+            "CodeSize": 2237,
+            "Description": "Lambda function for auto-deleting objects in amplify-amplifyvitereactt-amplifydataamplifycodege-fv2rs9y3lll2 S3 bucket.",
+            "Timeout": 900,
+            "MemorySize": 128,
+            "LastModified": "2025-06-26T21:31:41.536+0000",
+            "CodeSha256": "4qZwvk1gEdE5gckIHfBV0pSMEOJtKW8U5O7jHENuUz4=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "3ef36f68-517e-445f-9e4d-3e9a555fe171",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-amplifyvitereactt-CustomS3AutoDeleteObject-6sAFcZi2rrh1"
+            }
+        },
+        {
+            "FunctionName": "amplify-claudeai-nevad-sa-CustomS3AutoDeleteObject-RG9G3yNA4hJl",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-claudeai-nevad-sa-CustomS3AutoDeleteObject-RG9G3yNA4hJl",
+            "Runtime": "nodejs22.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-claudeai-nevad-sa-CustomS3AutoDeleteObjects-cX3kz8lZC9If",
+            "Handler": "index.handler",
+            "CodeSize": 2237,
+            "Description": "Lambda function for auto-deleting objects in amplify-claudeai-nevad-sa-amplifydataamplifycodege-trvvgq2z8sgp S3 bucket.",
+            "Timeout": 900,
+            "MemorySize": 128,
+            "LastModified": "2025-06-21T01:40:39.328+0000",
+            "CodeSha256": "4qZwvk1gEdE5gckIHfBV0pSMEOJtKW8U5O7jHENuUz4=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "c417d54d-a2e9-4709-a5df-562a927b6bfa",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-claudeai-nevad-sa-CustomS3AutoDeleteObject-RG9G3yNA4hJl"
+            }
+        },
+        {
+            "FunctionName": "amplify-amplifyvitereactt-CustomS3AutoDeleteObject-l6fVrq6pu4ub",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-amplifyvitereactt-CustomS3AutoDeleteObject-l6fVrq6pu4ub",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-amplifyvitereactt-CustomS3AutoDeleteObjects-3hdlMbPqEomZ",
+            "Handler": "index.handler",
+            "CodeSize": 2237,
+            "Description": "Lambda function for auto-deleting objects in amplify-amplifyvitereactt-amplifydataamplifycodege-p0kwwmbwywwh S3 bucket.",
+            "Timeout": 900,
+            "MemorySize": 128,
+            "LastModified": "2025-06-27T04:27:41.232+0000",
+            "CodeSha256": "4qZwvk1gEdE5gckIHfBV0pSMEOJtKW8U5O7jHENuUz4=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "bd6c801f-a9c4-473b-8976-6ae82a9a0cbd",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-amplifyvitereactt-CustomS3AutoDeleteObject-l6fVrq6pu4ub"
+            }
+        },
+        {
+            "FunctionName": "amplify-dsmtc2hz5za5b-mai-CustomS3AutoDeleteObject-uT8KY7xmWTKN",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-dsmtc2hz5za5b-mai-CustomS3AutoDeleteObject-uT8KY7xmWTKN",
+            "Runtime": "nodejs22.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-dsmtc2hz5za5b-mai-CustomS3AutoDeleteObjects-12nxbz3nUld1",
+            "Handler": "index.handler",
+            "CodeSize": 2237,
+            "Description": "Lambda function for auto-deleting objects in amplify-dsmtc2hz5za5b-main-userfilesbucketa0d7ee59-qigegymctloa S3 bucket.",
+            "Timeout": 900,
+            "MemorySize": 128,
+            "LastModified": "2025-06-04T17:26:59.266+0000",
+            "CodeSha256": "4qZwvk1gEdE5gckIHfBV0pSMEOJtKW8U5O7jHENuUz4=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "7093792b-2c0c-4e18-9018-7155a646f41f",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-dsmtc2hz5za5b-mai-CustomS3AutoDeleteObject-uT8KY7xmWTKN"
+            }
+        },
+        {
+            "FunctionName": "amplify-amplifyvitereactt-CustomCDKBucketDeploymen-AQOF4pdOoXnr",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-amplifyvitereactt-CustomCDKBucketDeploymen-AQOF4pdOoXnr",
+            "Runtime": "python3.11",
+            "Role": "arn:aws:iam::080746528746:role/amplify-amplifyvitereactt-CustomCDKBucketDeployment-jPsDcGDqRABb",
+            "Handler": "index.handler",
+            "CodeSize": 4781,
+            "Description": "",
+            "Timeout": 900,
+            "MemorySize": 1536,
+            "LastModified": "2025-06-26T21:31:58.801+0000",
+            "CodeSha256": "YHbwiP0EOLRfGwVok2a2UpHSOlTm2xi5S1kB582aWkQ=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "AWS_CA_BUNDLE": "/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "fafe0d09-457f-4a58-a424-3cc20d5b62ef",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:us-west-2:080746528746:layer:amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentAwsCliLayerE322F905:15",
+                    "CodeSize": 17857584
+                }
+            ],
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-amplifyvitereactt-CustomCDKBucketDeploymen-AQOF4pdOoXnr"
+            }
+        },
+        {
+            "FunctionName": "amplify-mybedrockagentapp-CustomS3AutoDeleteObject-YdEtlTOjGbcV",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-mybedrockagentapp-CustomS3AutoDeleteObject-YdEtlTOjGbcV",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-mybedrockagentapp-CustomS3AutoDeleteObjects-eoCU6rVHdQZQ",
+            "Handler": "index.handler",
+            "CodeSize": 2237,
+            "Description": "Lambda function for auto-deleting objects in amplify-mybedrockagentapp-bedrockagentstoragebucke-kgs1utulxxw8 S3 bucket.",
+            "Timeout": 900,
+            "MemorySize": 128,
+            "LastModified": "2025-06-25T04:46:15.603+0000",
+            "CodeSha256": "4qZwvk1gEdE5gckIHfBV0pSMEOJtKW8U5O7jHENuUz4=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "ffd5607f-67fd-4fc0-bc9a-085d10d1dd3e",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-mybedrockagentapp-CustomS3AutoDeleteObject-YdEtlTOjGbcV"
+            }
+        },
+        {
+            "FunctionName": "amplify-claudeai-leochong-TableManagerCustomProvid-6TBXCdqz90dO",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-claudeai-leochong-TableManagerCustomProvid-6TBXCdqz90dO",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-claudeai-leochong-AmplifyManagedTableIsComp-qKASStJ4lG34",
+            "Handler": "amplify-table-manager-handler.isComplete",
+            "CodeSize": 46220,
+            "Description": "AmplifyManagedTable - isComplete (amplify-claudeai-leochong-sandbox-3ff1f71545/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider)",
+            "Timeout": 840,
+            "MemorySize": 128,
+            "LastModified": "2025-06-29T04:15:11.638+0000",
+            "CodeSha256": "lhY2o1+N1TDSU1+iKp7ZOBD1y71cByhil6Jn7YYl4aA=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "bd349a42-30d5-4cda-a55c-8ff3d6130e6e",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-claudeai-leochong-TableManagerCustomProvid-6TBXCdqz90dO"
+            }
+        },
+        {
+            "FunctionName": "amplify-claudeai-31027318-ChatDefaultConversationH-s5K7qlB1cSn4",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-claudeai-31027318-ChatDefaultConversationH-s5K7qlB1cSn4",
+            "Runtime": "nodejs18.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-claudeai-31027318-ChatDefaultConversationHa-PXWJRQrUCALg",
+            "Handler": "index.handler",
+            "CodeSize": 10521,
+            "Description": "",
+            "Timeout": 60,
+            "MemorySize": 512,
+            "LastModified": "2025-06-04T01:12:36.816+0000",
+            "CodeSha256": "Wq6yZeR3GwirS2l3gs+ovov4nA7pemyAg6Ay+V4xrjc=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "63346204-28b4-468e-a448-f963a727a207",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "JSON",
+                "ApplicationLogLevel": "INFO",
+                "SystemLogLevel": "INFO",
+                "LogGroup": "amplify-claudeai-310273187-sandbox-a29c718f-amplifyDataChatConversationDirectiveLambda-CT1JTD4GJA7C-ChatDefaultConversationHandlerconversationHandlerFunctionLogGroup62E17E2F-4qg62YNp9VS6"
+            }
+        },
+        {
+            "FunctionName": "amplify-amplifyvitereactt-TableManagerCustomProvid-sGsDLjdbd0zP",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-amplifyvitereactt-TableManagerCustomProvid-sGsDLjdbd0zP",
+            "Runtime": "nodejs18.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-amplifyvitereactt-AmplifyManagedTableOnEven-kEHz8n8nciKz",
+            "Handler": "amplify-table-manager-handler.onEvent",
+            "CodeSize": 26989,
+            "Description": "AmplifyManagedTable - onEvent (amplify-amplifyvitereacttemplate-nevad-sandbox-5d0f5bbaa1/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider)",
+            "Timeout": 840,
+            "MemorySize": 128,
+            "LastModified": "2025-06-26T21:32:33.690+0000",
+            "CodeSha256": "W7mS1fxaAidY5UtPHoyAYA5sXmaH5rwUwoB4t7DKrhw=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "WAITER_STATE_MACHINE_ARN": "arn:aws:states:us-west-2:080746528746:stateMachine:AmplifyTableWaiterStateMachine060600BC-lIwUzx5CPArq"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "00aa1500-d64b-4d53-8730-df6d025bda20",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-amplifyvitereactt-TableManagerCustomProvid-sGsDLjdbd0zP"
+            }
+        },
+        {
+            "FunctionName": "amplify-claudeai-nevad-sa-CustomS3AutoDeleteObject-T9iwsRikKrmg",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-claudeai-nevad-sa-CustomS3AutoDeleteObject-T9iwsRikKrmg",
+            "Runtime": "nodejs22.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-claudeai-nevad-sa-CustomS3AutoDeleteObjects-hAijuCgbruqH",
+            "Handler": "index.handler",
+            "CodeSize": 2237,
+            "Description": "Lambda function for auto-deleting objects in amplify-claudeai-nevad-san-userfilesbucketa0d7ee59-nyyejebst4hs S3 bucket.",
+            "Timeout": 900,
+            "MemorySize": 128,
+            "LastModified": "2025-06-21T01:40:37.862+0000",
+            "CodeSha256": "4qZwvk1gEdE5gckIHfBV0pSMEOJtKW8U5O7jHENuUz4=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "df98a288-f3dd-43ce-8695-a4973c92d96b",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-claudeai-nevad-sa-CustomS3AutoDeleteObject-T9iwsRikKrmg"
+            }
+        },
+        {
+            "FunctionName": "amplify-claudeai-leochong-TableManagerCustomProvid-g2x6BWH116SN",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-claudeai-leochong-TableManagerCustomProvid-g2x6BWH116SN",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-claudeai-leochong-AmplifyManagedTableOnEven-Fs6MMxGmra0P",
+            "Handler": "amplify-table-manager-handler.onEvent",
+            "CodeSize": 46220,
+            "Description": "AmplifyManagedTable - onEvent (amplify-claudeai-leochong-sandbox-3ff1f71545/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider)",
+            "Timeout": 840,
+            "MemorySize": 128,
+            "LastModified": "2025-06-29T04:15:57.507+0000",
+            "CodeSha256": "lhY2o1+N1TDSU1+iKp7ZOBD1y71cByhil6Jn7YYl4aA=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "WAITER_STATE_MACHINE_ARN": "arn:aws:states:us-west-2:080746528746:stateMachine:AmplifyTableWaiterStateMachine060600BC-0feQ3iysp1VD"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "0bc485f0-32ab-4dab-b5bd-789cc8fc5047",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-claudeai-leochong-TableManagerCustomProvid-g2x6BWH116SN"
+            }
+        },
+        {
+            "FunctionName": "amplify-claudeai-31027318-CustomS3AutoDeleteObject-EJ2P98iCFQnM",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-claudeai-31027318-CustomS3AutoDeleteObject-EJ2P98iCFQnM",
+            "Runtime": "nodejs22.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-claudeai-31027318-CustomS3AutoDeleteObjects-WCIHJ6dNLFiC",
+            "Handler": "index.handler",
+            "CodeSize": 2237,
+            "Description": "Lambda function for auto-deleting objects in amplify-claudeai-310273187-userfilesbucketa0d7ee59-6j9nqiq4tp9y S3 bucket.",
+            "Timeout": 900,
+            "MemorySize": 128,
+            "LastModified": "2025-06-04T17:33:43.334+0000",
+            "CodeSha256": "4qZwvk1gEdE5gckIHfBV0pSMEOJtKW8U5O7jHENuUz4=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "712a06e6-8d1a-4724-857f-3191eda8347d",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-claudeai-31027318-CustomS3AutoDeleteObject-EJ2P98iCFQnM"
+            }
+        },
+        {
+            "FunctionName": "amplify-claudeai-nevad-sa-TableManagerCustomProvid-z5zoE6JPAW7H",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-claudeai-nevad-sa-TableManagerCustomProvid-z5zoE6JPAW7H",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-claudeai-nevad-sa-AmplifyManagedTableIsComp-cV9pAdj7CZPZ",
+            "Handler": "amplify-table-manager-handler.isComplete",
+            "CodeSize": 46220,
+            "Description": "AmplifyManagedTable - isComplete (amplify-claudeai-nevad-sandbox-9aba0b1697/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider)",
+            "Timeout": 840,
+            "MemorySize": 128,
+            "LastModified": "2025-06-21T01:40:45.169+0000",
+            "CodeSha256": "lhY2o1+N1TDSU1+iKp7ZOBD1y71cByhil6Jn7YYl4aA=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "82011f88-477d-4bab-9f99-7214c30a9454",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-claudeai-nevad-sa-TableManagerCustomProvid-z5zoE6JPAW7H"
+            }
+        },
+        {
+            "FunctionName": "amplify-mybedrockagentapp-TableManagerCustomProvid-UxJ5FsDhtHu4",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-mybedrockagentapp-TableManagerCustomProvid-UxJ5FsDhtHu4",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-mybedrockagentapp-AmplifyManagedTableIsComp-FV4bD9gDCrSv",
+            "Handler": "amplify-table-manager-handler.isComplete",
+            "CodeSize": 46220,
+            "Description": "AmplifyManagedTable - isComplete (amplify-mybedrockagentapp-nevad-sandbox-308c9772a4/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider)",
+            "Timeout": 840,
+            "MemorySize": 128,
+            "LastModified": "2025-06-25T04:46:21.777+0000",
+            "CodeSha256": "lhY2o1+N1TDSU1+iKp7ZOBD1y71cByhil6Jn7YYl4aA=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "4d05d810-c826-4344-a4a1-74066a76bf6c",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-mybedrockagentapp-TableManagerCustomProvid-UxJ5FsDhtHu4"
+            }
+        },
+        {
+            "FunctionName": "amplify-amplifyvitereacttemp-handlerlambdaE29D1580-J8MfzndJjmEL",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-amplifyvitereacttemp-handlerlambdaE29D1580-J8MfzndJjmEL",
+            "Runtime": "nodejs18.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-amplifyvitereactt-handlerlambdaServiceRole4-qMF9lDWE4zp0",
+            "Handler": "index.handler",
+            "CodeSize": 606612,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 512,
+            "LastModified": "2025-06-28T19:54:16.871+0000",
+            "CodeSha256": "8uA2UI82BPya7ABkJjx65/PWCcnLwuwxCOApPZNf6Dw=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "AMPLIFY_SSM_ENV_CONFIG": "{}",
+                    "BEDROCK_REGION": "us-west-2"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "87411305-9771-43e1-a316-7f83d2e41774",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-amplifyvitereacttemp-handlerlambdaE29D1580-J8MfzndJjmEL"
+            }
+        },
+        {
+            "FunctionName": "amplify-claudeai-leochong-ChatDefaultConversationH-eT3jqu3vQQC6",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-claudeai-leochong-ChatDefaultConversationH-eT3jqu3vQQC6",
+            "Runtime": "nodejs18.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-claudeai-leochong-ChatDefaultConversationHa-U2tHNR3Gg09D",
+            "Handler": "index.handler",
+            "CodeSize": 10521,
+            "Description": "",
+            "Timeout": 60,
+            "MemorySize": 512,
+            "LastModified": "2025-06-29T04:15:27.657+0000",
+            "CodeSha256": "Wq6yZeR3GwirS2l3gs+ovov4nA7pemyAg6Ay+V4xrjc=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "b32e212d-e34f-416b-978e-77c17c199a0c",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "JSON",
+                "ApplicationLogLevel": "INFO",
+                "SystemLogLevel": "INFO",
+                "LogGroup": "amplify-claudeai-leochong-sandbox-3ff1f7154-amplifyDataChatConversationDirectiveLambda-1OCZXF9XGX9E4-ChatDefaultConversationHandlerconversationHandlerFunctionLogGroup62E17E2F-AkMKA8dHJOoc"
+            }
+        },
+        {
+            "FunctionName": "amplify-mybedrockagentapp-n-sayHellolambda9B249E72-77RBkFjawfeW",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-mybedrockagentapp-n-sayHellolambda9B249E72-77RBkFjawfeW",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-mybedrockagentapp-sayHellolambdaServiceRole-z3wRHFanBQEt",
+            "Handler": "index.handler",
+            "CodeSize": 2053,
+            "Description": "",
+            "Timeout": 30,
+            "MemorySize": 512,
+            "LastModified": "2025-06-25T04:45:40.360+0000",
+            "CodeSha256": "HtQhqpqPUeTBXG4q6W6MBRasfrjGWMj/QlOw+wwO5/o=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "AMPLIFY_SSM_ENV_CONFIG": "{}"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "a5f9bb25-940d-4b84-a414-71f5e30e8c74",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-mybedrockagentapp-n-sayHellolambda9B249E72-77RBkFjawfeW"
+            }
+        },
+        {
+            "FunctionName": "amplify-mybedrockagentapp-TableManagerCustomProvid-RN73x1v2j2lL",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-mybedrockagentapp-TableManagerCustomProvid-RN73x1v2j2lL",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-mybedrockagentapp-AmplifyManagedTableOnEven-H7lm6B9lew7D",
+            "Handler": "amplify-table-manager-handler.onEvent",
+            "CodeSize": 46220,
+            "Description": "AmplifyManagedTable - onEvent (amplify-mybedrockagentapp-nevad-sandbox-308c9772a4/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider)",
+            "Timeout": 840,
+            "MemorySize": 128,
+            "LastModified": "2025-06-25T04:47:07.710+0000",
+            "CodeSha256": "lhY2o1+N1TDSU1+iKp7ZOBD1y71cByhil6Jn7YYl4aA=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "WAITER_STATE_MACHINE_ARN": "arn:aws:states:us-west-2:080746528746:stateMachine:AmplifyTableWaiterStateMachine060600BC-XVnJkfZb9Xdl"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "0cf30774-d6ad-4819-a7af-161fa941d103",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-mybedrockagentapp-TableManagerCustomProvid-RN73x1v2j2lL"
+            }
+        },
+        {
+            "FunctionName": "amplify-claudeai-31027318-TableManagerCustomProvid-YJ5spagl1UsQ",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-claudeai-31027318-TableManagerCustomProvid-YJ5spagl1UsQ",
+            "Runtime": "nodejs20.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-claudeai-31027318-AmplifyManagedTableIsComp-RnWtG0pvDT3o",
+            "Handler": "amplify-table-manager-handler.isComplete",
+            "CodeSize": 46220,
+            "Description": "AmplifyManagedTable - isComplete (amplify-claudeai-310273187-sandbox-a29c718fcc/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider)",
+            "Timeout": 840,
+            "MemorySize": 128,
+            "LastModified": "2025-06-04T01:12:19.446+0000",
+            "CodeSha256": "lhY2o1+N1TDSU1+iKp7ZOBD1y71cByhil6Jn7YYl4aA=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "a7a4db50-bb97-4e1d-a46d-1576f63ee8ed",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-claudeai-31027318-TableManagerCustomProvid-YJ5spagl1UsQ"
+            }
+        },
+        {
+            "FunctionName": "amplify-claudeai-31027318-CustomCDKBucketDeploymen-4IFhc7xZxDQm",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-claudeai-31027318-CustomCDKBucketDeploymen-4IFhc7xZxDQm",
+            "Runtime": "python3.11",
+            "Role": "arn:aws:iam::080746528746:role/amplify-claudeai-31027318-CustomCDKBucketDeployment-fBTj1GePCZb1",
+            "Handler": "index.handler",
+            "CodeSize": 5471,
+            "Description": "",
+            "Timeout": 900,
+            "MemorySize": 1536,
+            "LastModified": "2025-06-04T01:12:31.683+0000",
+            "CodeSha256": "p2g+TCGHbAJ3zz0Qi1yRrI0sjPJfrvVZj4EpyTH73X0=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "AWS_CA_BUNDLE": "/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "9e602132-3ebd-44d7-ae48-51416d9ec8ca",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:us-west-2:080746528746:layer:amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentAwsCliLayerE322F905:11",
+                    "CodeSize": 19940332
+                }
+            ],
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-claudeai-31027318-CustomCDKBucketDeploymen-4IFhc7xZxDQm"
+            }
+        },
+        {
+            "FunctionName": "amplify-claudeai-nevad-sa-ChatDefaultConversationH-0mFKBpRGBfZJ",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-claudeai-nevad-sa-ChatDefaultConversationH-0mFKBpRGBfZJ",
+            "Runtime": "nodejs18.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-claudeai-nevad-sa-ChatDefaultConversationHa-W1xrPGFCFHf0",
+            "Handler": "index.handler",
+            "CodeSize": 10521,
+            "Description": "",
+            "Timeout": 60,
+            "MemorySize": 512,
+            "LastModified": "2025-06-21T01:41:01.837+0000",
+            "CodeSha256": "Wq6yZeR3GwirS2l3gs+ovov4nA7pemyAg6Ay+V4xrjc=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "592daadc-88f2-4c78-9dd2-4cbb3789a109",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "JSON",
+                "ApplicationLogLevel": "INFO",
+                "SystemLogLevel": "INFO",
+                "LogGroup": "amplify-claudeai-nevad-sandbox-9aba0b1697-d-amplifyDataChatConversationDirectiveLambda-M7TM3HJ8LOJS-ChatDefaultConversationHandlerconversationHandlerFunctionLogGroup62E17E2F-nO6n4lRO5fwB"
+            }
+        },
+        {
+            "FunctionName": "amplify-claudeai-leochong-CustomS3AutoDeleteObject-OT7ANKiV7yk4",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-claudeai-leochong-CustomS3AutoDeleteObject-OT7ANKiV7yk4",
+            "Runtime": "nodejs22.x",
+            "Role": "arn:aws:iam::080746528746:role/amplify-claudeai-leochong-CustomS3AutoDeleteObjects-80ha1IlZjmeN",
+            "Handler": "index.handler",
+            "CodeSize": 2237,
+            "Description": "Lambda function for auto-deleting objects in amplify-claudeai-leochong-amplifydataamplifycodege-pg5xnajn5rrf S3 bucket.",
+            "Timeout": 900,
+            "MemorySize": 128,
+            "LastModified": "2025-06-29T04:15:05.771+0000",
+            "CodeSha256": "4qZwvk1gEdE5gckIHfBV0pSMEOJtKW8U5O7jHENuUz4=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "16011514-17a7-4736-8135-3a85d5bed7ba",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-claudeai-leochong-CustomS3AutoDeleteObject-OT7ANKiV7yk4"
+            }
+        },
+        {
+            "FunctionName": "amplify-mybedrockagentapp-CustomCDKBucketDeploymen-NHLSLGT8JFi8",
+            "FunctionArn": "arn:aws:lambda:us-west-2:080746528746:function:amplify-mybedrockagentapp-CustomCDKBucketDeploymen-NHLSLGT8JFi8",
+            "Runtime": "python3.11",
+            "Role": "arn:aws:iam::080746528746:role/amplify-mybedrockagentapp-CustomCDKBucketDeployment-iuSIm0TALOx2",
+            "Handler": "index.handler",
+            "CodeSize": 5347,
+            "Description": "",
+            "Timeout": 900,
+            "MemorySize": 1536,
+            "LastModified": "2025-06-25T04:46:33.975+0000",
+            "CodeSha256": "RH9ZlEsFiYkOZJIRhWbaDSudgQoOos0CJ5NN/Yin9rs=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "AWS_CA_BUNDLE": "/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "38d990f2-b13a-4538-b02a-865a17f0785a",
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:us-west-2:080746528746:layer:amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentAwsCliLayerE322F905:13",
+                    "CodeSize": 20070226
+                }
+            ],
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/amplify-mybedrockagentapp-CustomCDKBucketDeploymen-NHLSLGT8JFi8"
+            }
+        }
+    ]
+}
